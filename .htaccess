@@ -1,0 +1,18 @@
+#SetEnv PHPRC /home/customer/www/fundacionapg.org/public_html/php.ini
+#SetEnv PHPRC /proyecto/php.ini
+# HTTPS forced by SG-Optimizer
+#<IfModule mod_rewrite.c>
+#    RewriteEngine On    
+#    RewriteCond %{HTTP:X-Forwarded-Proto} !https
+#    RewriteCond %{HTTP} off
+#    RewriteRule ^ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#</IfModule>
+
+# END HTTPS
+# BEGIN WordPress
+# Las directivas (líneas) entre «BEGIN WordPress» y «END WordPress» son
+# generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores serán sobrescritas.
+
+
+# END WordPress

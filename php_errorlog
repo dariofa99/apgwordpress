@@ -1,0 +1,237 @@
+[10-Jun-2022 16:11:37 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[24-Jun-2022 19:25:51 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=http://fundacionapg.org/wp-admin/
+[28-Jun-2022 16:11:58 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=http://fundacionapg.org/wp-admin/
+[30-Jun-2022 16:13:27 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=http://fundacionapg.org/wp-admin/
+[02-Jul-2022 17:49:29 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=http://fundacionapg.org/wp-admin/
+[05-Jul-2022 14:12:02 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=http://fundacionapg.org/wp-admin/
+[07-Jul-2022 15:55:18 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[07-Jul-2022 16:17:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(307): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[11-Jul-2022 15:10:48 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[11-Jul-2022 20:15:18 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[12-Jul-2022 14:59:46 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[13-Jul-2022 03:35:50 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[15-Jul-2022 15:47:08 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[19-Jul-2022 14:11:03 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[19-Jul-2022 14:36:34 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[20-Jul-2022 00:06:01 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[21-Jul-2022 21:42:00 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[27-Jul-2022 16:24:41 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[27-Jul-2022 20:36:39 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[01-Aug-2022 16:41:28 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[02-Aug-2022 19:44:04 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[04-Aug-2022 15:42:59 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[05-Aug-2022 00:14:51 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[05-Aug-2022 01:43:02 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[06-Aug-2022 01:42:13 UTC] Error Deadlock found when trying to get lock; try restarting transaction de la base de datos de WordPress para la consulta DELETE FROM `lmh_options` WHERE `option_name` = '_transient_global_styles_svg_filters_hello-elementor' realizada por require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/elementor/modules/page-templates/templates/header-footer.php'), get_header, locate_template, load_template, require_once('/themes/hello-elementor/header.php'), hello_elementor_body_open, wp_body_open, do_action('wp_body_open'), WP_Hook->do_action, WP_Hook->apply_filters, wp_global_styles_render_svg_filters, wp_get_global_styles_svg_filters, get_transient, delete_option
+[06-Aug-2022 19:41:00 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[09-Aug-2022 19:25:43 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[15-Aug-2022 11:47:36 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[17-Aug-2022 19:25:14 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[13-Sep-2022 16:40:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(307): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[19-Sep-2022 22:59:42 UTC] Error Deadlock found when trying to get lock; try restarting transaction de la base de datos de WordPress para la consulta DELETE FROM `lmh_options` WHERE `option_name` = '_transient_global_styles_svg_filters_hello-elementor' realizada por require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/elementor/modules/page-templates/templates/header-footer.php'), get_header, locate_template, load_template, require_once('/themes/hello-elementor/header.php'), hello_elementor_body_open, wp_body_open, do_action('wp_body_open'), WP_Hook->do_action, WP_Hook->apply_filters, wp_global_styles_render_svg_filters, wp_get_global_styles_svg_filters, get_transient, delete_option
+[03-Oct-2022 20:37:21 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[12-Oct-2022 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(307): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[18-Oct-2022 20:26:54 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[24-Oct-2022 15:07:16 UTC] wp_auto_login: trying to login user_id==1 loginusername=jersonstudio@gmail.com to admin_url=https://fundacionapg.org/wp-admin/
+[27-Oct-2022 16:37:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(307): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[11-Nov-2022 16:16:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(308): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[17-Nov-2022 06:48:58 UTC] WordPress database error Deadlock found when trying to get lock; try restarting transaction for query DELETE FROM `lmh_options` WHERE `option_name` = '_transient_timeout_global_styles_hello-elementor' made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/hello-elementor/index.php'), get_header, locate_template, load_template, require_once('/themes/hello-elementor/header.php'), wp_head, do_action('wp_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_scripts, do_action('wp_enqueue_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_global_styles, wp_get_global_stylesheet, get_transient, delete_option
+[22-Nov-2022 17:39:12 UTC] Error de evento de reprogramación de cron para el gancho: wp_privacy_delete_old_export_files. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"hourly","args":[],"interval":3600}
+[19-Dec-2022 16:50:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(308): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[12-Jan-2023 16:08:54 UTC] WordPress database error Server shutdown in progress for query SELECT option_value FROM lmh_options WHERE option_name = 'elementor_experiment-e_scroll_snap' LIMIT 1 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, do_action('elementor/init'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Plugin->on_elementor_init, ElementorPro\Core\Modules_Manager->__construct, Elementor\Core\Experiments\Manager->add_feature, Elementor\Core\Experiments\Manager->get_saved_feature_state, get_option
+[12-Jan-2023 16:08:55 UTC] WordPress database error Server shutdown in progress for query 
+		SELECT ID, post_name, post_parent, post_type
+		FROM lmh_posts
+		WHERE post_name IN ('resolucionesmasc')
+		AND post_type IN ('page','attachment')
+	 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, get_page_by_path
+[20-Jan-2023 04:22:08 UTC] Error de evento de reprogramación de cron para el gancho: wp_https_detection. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"twicedaily","args":[],"interval":43200}
+[25-Jan-2023 11:00:48 UTC] Error de evento de reprogramación de cron para el gancho: wp_privacy_delete_old_export_files. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"hourly","args":[],"interval":3600}
+[05-Feb-2023 16:45:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(308): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[04-Mar-2023 15:28:45 UTC] WordPress database error Deadlock found when trying to get lock; try restarting transaction for query DELETE FROM `lmh_options` WHERE `option_name` = '_transient_global_styles_hello-elementor' made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/elementor/modules/page-templates/templates/header-footer.php'), get_header, locate_template, load_template, require_once('/themes/hello-elementor/header.php'), wp_head, do_action('wp_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_scripts, do_action('wp_enqueue_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_global_styles, wp_get_global_stylesheet, get_transient, delete_option
+[07-Mar-2023 16:35:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(308): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[22-Mar-2023 16:35:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(308): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[30-Mar-2023 16:16:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(308): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[31-Mar-2023 02:19:22 UTC] Error de evento de reprogramación de cron para el gancho: wp_privacy_delete_old_export_files. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"hourly","args":[],"interval":3600}
+[06-Apr-2023 16:17:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(308): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[21-Apr-2023 16:16:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(308): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[13-May-2023 16:41:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(308): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[21-May-2023 16:24:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(308): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[29-May-2023 16:27:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(308): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[13-Jun-2023 16:16:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(308): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[28-Jun-2023 16:16:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(308): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[21-Jul-2023 16:18:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(308): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[05-Aug-2023 16:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(308): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[12-Aug-2023 16:37:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(310): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[06-Sep-2023 19:51:36 UTC] Error de evento de reprogramación de cron para el gancho: wp_scheduled_auto_draft_delete. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"daily","args":[],"interval":86400}
+[18-Sep-2023 16:17:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(310): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[23-Sep-2023 18:15:25 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status400: 400 Bad Request in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor-pro/modules/screenshots/module.php:238
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor-pro/modules/screenshots/module.php(264): ElementorPro\Modules\Screenshots\Module->is_screenshot_proxy_mode(Array)
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/base/module.php(85): ElementorPro\Modules\Screenshots\Module->__construct()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php(87): Elementor\Core\Base\Module::instance()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor-pro/plugin.php(369): ElementorPro\Core\Modules_Manager->__construct()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(310): ElementorPro\Plugin->on_elementor_init('')
+#5 /home/customer/www/fundacionapg.org in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor-pro/modules/screenshots/module.php on line 238
+[11-Oct-2023 16:41:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(310): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[19-Oct-2023 16:30:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(310): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[19-Nov-2023 16:46:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(324): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[19-Dec-2023 16:25:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(324): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[27-Dec-2023 16:16:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(324): E in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[13-Feb-2024 16:55:55 UTC] wp_auto_login: trying to login user_id==1 loginusername=Lilu to admin_url=https://fundacionapg.org/wp-admin/

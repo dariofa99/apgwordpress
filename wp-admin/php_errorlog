@@ -1,0 +1,186 @@
+[30-Jun-2022 15:18:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/jet-blog/templates/jet-blog-smart-tiles/global/index.php on line 19
+[30-Jun-2022 16:50:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_print_media_templates' not found or invalid function name in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 307
+[30-Jun-2022 16:50:33 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_print_media_templates' not found or invalid function name in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 307
+[01-Jul-2022 15:34:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on bool in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:294
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(167): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/customer/www/fundacionapg.o in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 294
+[07-Jul-2022 17:12:03 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php on line 4548
+[07-Jul-2022 17:12:03 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 309 and defined in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php:1053
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(309): Elementor\TemplateLibrary\Source_Local->on_save_post(1314, Object(stdClass))
+#1 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4673): do_action('save_post', 1314, Object(stdClass), true)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4775): wp_insert_ in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1053
+[11-Jul-2022 22:10:50 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php on line 4548
+[11-Jul-2022 22:10:50 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 309 and defined in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php:1053
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(309): Elementor\TemplateLibrary\Source_Local->on_save_post(1459, Object(stdClass))
+#1 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4673): do_action('save_post', 1459, Object(stdClass), true)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4775): wp_insert_ in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1053
+[11-Jul-2022 23:35:33 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php on line 4548
+[11-Jul-2022 23:35:33 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 309 and defined in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php:1053
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(309): Elementor\TemplateLibrary\Source_Local->on_save_post(1506, Object(stdClass))
+#1 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4673): do_action('save_post', 1506, Object(stdClass), true)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4775): wp_insert_ in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1053
+[20-Jul-2022 00:42:07 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php on line 4548
+[20-Jul-2022 00:42:07 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 309 and defined in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php:1053
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(309): Elementor\TemplateLibrary\Source_Local->on_save_post(1767, Object(stdClass))
+#1 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4673): do_action('save_post', 1767, Object(stdClass), true)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4775): wp_insert_ in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1053
+[21-Jul-2022 21:52:39 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php on line 4548
+[21-Jul-2022 21:52:39 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 309 and defined in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php:1053
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(309): Elementor\TemplateLibrary\Source_Local->on_save_post(1819, Object(stdClass))
+#1 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4673): do_action('save_post', 1819, Object(stdClass), true)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4775): wp_insert_ in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1053
+[01-Aug-2022 17:07:19 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php on line 4548
+[01-Aug-2022 17:07:19 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 309 and defined in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php:1053
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(309): Elementor\TemplateLibrary\Source_Local->on_save_post(2089, Object(stdClass))
+#1 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4673): do_action('save_post', 2089, Object(stdClass), true)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4775): wp_insert_ in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1053
+[04-Aug-2022 20:59:38 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php on line 4548
+[04-Aug-2022 20:59:39 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 309 and defined in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php:1053
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(309): Elementor\TemplateLibrary\Source_Local->on_save_post(2700, Object(stdClass))
+#1 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4673): do_action('save_post', 2700, Object(stdClass), true)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4775): wp_insert_ in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1053
+[04-Aug-2022 21:30:56 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php on line 4548
+[04-Aug-2022 21:30:56 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 309 and defined in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php:1053
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(309): Elementor\TemplateLibrary\Source_Local->on_save_post(2722, Object(stdClass))
+#1 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4673): do_action('save_post', 2722, Object(stdClass), true)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4775): wp_insert_ in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1053
+[05-Aug-2022 01:29:29 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php on line 4548
+[05-Aug-2022 01:29:29 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 309 and defined in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php:1053
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(309): Elementor\TemplateLibrary\Source_Local->on_save_post(2929, Object(stdClass))
+#1 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4673): do_action('save_post', 2929, Object(stdClass), true)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4775): wp_insert_ in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1053
+[04-Nov-2022 15:21:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on bool in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:294
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(167): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/customer/www/fundacionapg.o in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 294
+[04-Nov-2022 22:18:21 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php on line 4592
+[04-Nov-2022 22:18:21 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 310 and defined in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php:1080
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(310): Elementor\TemplateLibrary\Source_Local->on_save_post(3433, Object(stdClass))
+#1 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4717): do_action('save_post', 3433, Object(stdClass), true)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4819): wp_insert_ in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1080
+[30-Dec-2022 23:17:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function is_built_with_elementor() on bool in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/documents-manager.php:493
+Stack trace:
+#0 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/fundacionapg.org/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_element...')
+#6 in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/core/documents-manager.php on line 493
+[15-Sep-2023 15:22:43 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Error as array in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/revslider/admin/includes/addons.class.php:174
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/revslider/admin/includes/addons.class.php(128): RevSliderAddons->download_addon('revslider-trans...')
+#1 /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/revslider/admin/revslider-admin.class.php(2002): RevSliderAddons->install_addon('revslider-trans...', false)
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(310): RevSliderAdmin->do_ajax_action('')
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/fundacionapg.org/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rs_ajax...')
+#6 {main}
+  thrown in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/revslider/admin/includes/addons.class.php on line 174
+[17-Oct-2023 18:50:24 UTC] PHP Fatal error:  Allowed memory size of 805306368 bytes exhausted (tried to allocate 2088960 bytes) in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wpdb.php on line 2425
+[17-Oct-2023 19:52:40 UTC] PHP Fatal error:  Allowed memory size of 805306368 bytes exhausted (tried to allocate 2088960 bytes) in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wpdb.php on line 2425
+[18-Oct-2023 14:18:26 UTC] PHP Fatal error:  Allowed memory size of 805306368 bytes exhausted (tried to allocate 2088960 bytes) in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wpdb.php on line 2425
+[18-Oct-2023 14:18:31 UTC] PHP Fatal error:  Allowed memory size of 805306368 bytes exhausted (tried to allocate 2088960 bytes) in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wpdb.php on line 2425
+[18-Oct-2023 14:19:11 UTC] PHP Fatal error:  Allowed memory size of 805306368 bytes exhausted (tried to allocate 2088960 bytes) in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wpdb.php on line 2425
+[18-Oct-2023 14:19:48 UTC] PHP Fatal error:  Allowed memory size of 805306368 bytes exhausted (tried to allocate 2088960 bytes) in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wpdb.php on line 2425
+[18-Oct-2023 14:20:24 UTC] PHP Fatal error:  Allowed memory size of 805306368 bytes exhausted (tried to allocate 2088960 bytes) in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wpdb.php on line 2425
+[18-Oct-2023 14:22:42 UTC] PHP Fatal error:  Allowed memory size of 805306368 bytes exhausted (tried to allocate 2088960 bytes) in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wpdb.php on line 2425
+[18-Oct-2023 14:23:49 UTC] PHP Fatal error:  Allowed memory size of 805306368 bytes exhausted (tried to allocate 2088960 bytes) in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wpdb.php on line 2425
+[18-Oct-2023 14:25:56 UTC] PHP Fatal error:  Allowed memory size of 805306368 bytes exhausted (tried to allocate 2088960 bytes) in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wpdb.php on line 2425
+[18-Oct-2023 19:37:25 UTC] PHP Fatal error:  Allowed memory size of 805306368 bytes exhausted (tried to allocate 2088960 bytes) in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wpdb.php on line 2425
+[18-Oct-2023 19:38:36 UTC] PHP Fatal error:  Allowed memory size of 805306368 bytes exhausted (tried to allocate 2088960 bytes) in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wpdb.php on line 2425
+[18-Oct-2023 19:39:10 UTC] PHP Fatal error:  Allowed memory size of 805306368 bytes exhausted (tried to allocate 4164104 bytes) in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wpdb.php on line 2425
+[24-Oct-2023 01:39:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-options.php on line 564
+[24-Oct-2023 21:37:36 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php on line 4628
+[24-Oct-2023 21:37:36 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 312 and defined in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php:1113
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(312): Elementor\TemplateLibrary\Source_Local->on_save_post(9246, Object(stdClass))
+#1 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4753): do_action('save_post', 9246, Object(stdClass), true)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4855): wp_insert_ in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1113
+[11-Dec-2023 14:37:52 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 326 and defined in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php:1113
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(326): Elementor\TemplateLibrary\Source_Local->on_save_post(10877, NULL)
+#1 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4760): do_action('save_post', 10877, NULL, true)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4862): wp_insert_post(Array, false, true)
+#5 /home/cust in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1113
+[20-Dec-2023 22:50:04 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 326 and defined in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php:1113
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(326): Elementor\TemplateLibrary\Source_Local->on_save_post(11493, NULL)
+#1 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4760): do_action('save_post', 11493, NULL, true)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4862): wp_insert_post(Array, false, true)
+#5 /home/cust in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1113
+[31-Jan-2024 21:45:22 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php on line 4635
+[31-Jan-2024 21:45:22 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 326 and defined in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php:1114
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(326): Elementor\TemplateLibrary\Source_Local->on_save_post(11962, Object(stdClass))
+#1 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4760): do_action('save_post', 11962, Object(stdClass), true)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4862): wp_inser in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1114
+[01-Feb-2024 20:11:58 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php on line 4635
+[01-Feb-2024 20:11:58 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 326 and defined in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php:1114
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(326): Elementor\TemplateLibrary\Source_Local->on_save_post(11989, Object(stdClass))
+#1 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4760): do_action('save_post', 11989, Object(stdClass), true)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4862): wp_inser in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1114
+[05-Feb-2024 13:25:53 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php on line 4635
+[05-Feb-2024 13:25:53 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 326 and defined in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php:1114
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(326): Elementor\TemplateLibrary\Source_Local->on_save_post(12012, Object(stdClass))
+#1 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4760): do_action('save_post', 12012, Object(stdClass), true)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4862): wp_inser in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1114
+[07-Feb-2024 20:35:44 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php on line 4635
+[07-Feb-2024 20:35:44 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php on line 326 and defined in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php:1114
+Stack trace:
+#0 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(326): Elementor\TemplateLibrary\Source_Local->on_save_post(12053, Object(stdClass))
+#1 /home/customer/www/fundacionapg.org/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/fundacionapg.org/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4760): do_action('save_post', 12053, Object(stdClass), true)
+#4 /home/customer/www/fundacionapg.org/public_html/wp-includes/post.php(4862): wp_inser in /home/customer/www/fundacionapg.org/public_html/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1114
